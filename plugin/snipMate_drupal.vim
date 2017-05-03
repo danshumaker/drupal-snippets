@@ -25,9 +25,7 @@ if has("autocmd")
     autocmd BufRead,BufNewFile *.profile set filetype=php
     autocmd BufRead,BufNewFile *.view set filetype=php
     autocmd BufRead,BufNewFile *.make set filetype=dmake
-    " This might need add-on ini parsing support, but at
-    " minimum it makes ini-drupal.snippets work.
-    autocmd BufRead,BufNewFile *.info set filetype=ini
+    autocmd BufRead,BufNewFile *.info set filetype=drini
   augroup END
 endif
 " vim:noet:sw=4:ts=4:ft=vim
